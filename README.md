@@ -11,4 +11,4 @@
 ## Para correrlo:
 * npm install
 * npm build
-* npm start _(Fijarse en que puerto indica que se abrio para darle click en la terminal)_
+* npm start _(Fijarse en que puerto indica que se abrio para darle click en la terminal, normalmente en localhost:8080)_
