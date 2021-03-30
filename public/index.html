@@ -1,0 +1,42 @@
+<html class="is-clipped">
+
+<head>
+    <meta charset="utf-8">
+    <title>Juego de memoria ()</title>
+    <link rel="icon" type="image/png" href="/img/favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+</head>
+
+<body>
+    <h2>Juego de memoria (lab08)</h2>
+    <div class="score-panel">
+        <div class="timer">
+            <div id="basicUsage">00:00:00</div>
+        </div>
+        <div class="counter"></div>
+        <div class="restart">
+            <ion-icon class="restart--icon" name="reload"></ion-icon>
+        </div>
+    </div>
+    <div class="board"></div>
+
+    <div class="modal">
+        <div class="modal-background"></div>
+        <div class="modal-content">
+            <h1>Felicidades!</h1>
+            <p class="modal-content--message"></p>
+            <button class="btn-close">Jugar de nuevo!</button>
+            <h3>Tu historial:</h3>
+            <div class="modal-content--scores"></div>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+    <script src="/scripts/bundle.js"></script>
+</body>
+
+</html>
