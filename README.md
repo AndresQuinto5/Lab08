@@ -1,6 +1,6 @@
 # Memory Card Game
 
-![MemoryGameScreenshot](https://user-images.githubusercontent.com/53584321/108411875-6e9de800-7229-11eb-9009-a33b8fb61d20.jpg)
+![MemoryGameScreenshot](https://github.com/AndresQuinto5/Lab08/blob/master/public/img/working.png)
 
 
 ## Technologies
